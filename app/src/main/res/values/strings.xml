@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SMSmanage</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_auto_relay">AutoRelayActivity</string>
+    <string name="title_activity_for_ward">ForWardActivity</string>
+</resources>

@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.administrator.smsmanage.ForWardActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:text="转发号码"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="@android:color/background_light"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="请输入电话号码"
+        android:ems="10"
+        android:id="@+id/editTextForward"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删除"
+        android:id="@+id/buttonDelete3"
+        android:layout_alignBottom="@+id/textViewForward"
+        android:layout_toRightOf="@+id/editTextForward"
+        android:layout_toEndOf="@+id/editTextForward" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="增加"
+        android:id="@+id/buttonAddForward"
+        android:layout_alignBottom="@+id/editTextForward"
+        android:layout_alignLeft="@+id/buttonDelete3"
+        android:layout_alignStart="@+id/buttonDelete3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="没有号码"
+        android:id="@+id/textViewForward"
+        android:layout_below="@+id/editTextForward"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="57dp" />
+
+
+</RelativeLayout>
